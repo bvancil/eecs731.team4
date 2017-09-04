@@ -1,5 +1,15 @@
 # Notebook
 
+## Research questions
+
+## Data transformation plan
+
+## Data analysis ideas
+
+### Papers
+
+### Methods
+
 ## Reproducibility ideas
 
 ### [`checkpoint`](http://mran.revolutionanalytics.com/packages/info/?checkpoint)
@@ -39,9 +49,22 @@ packrat::set_opts(vcs.ignore.lib = TRUE)
 
 Seems not to be as widely used
 
-## Data analysis ideas
+## Software
 
-### Papers
+Do we use RStudio or Jupyter Notebook? One nice thing about RStudio project files is the setting of the working directory.
 
-### Methods
+## Utilities
+
+### [`here`](https://github.com/jennybc/here_here#readme)
+
+The `here` package provides a simple helper function to manipulate files with relative paths.
+
+```R
+# Do once:
+install.packages("here")
+# Do once per script:
+library(here)
+# Anywhere you would use the full path to a file:
+here("sub-directory", "filename.csv")
+```
 
