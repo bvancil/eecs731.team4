@@ -34,3 +34,4 @@ vignettes/*.pdf
 
 # Editor-specific files
 .vscode/
+.Rproj.user
